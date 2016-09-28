@@ -18,7 +18,7 @@ define('environment',["require", "exports"], function (require, exports) {
     };
 });
 
-define('main',["require", "exports", "./environment"], function (require, exports, environment_1) {
+define('main',["require", "exports", './environment'], function (require, exports, environment_1) {
     "use strict";
     Promise.config({
         warnings: {
